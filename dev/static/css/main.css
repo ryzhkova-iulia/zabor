@@ -2959,6 +2959,7 @@ button {
 }
 .container {
   width: 100%;
+  background-color: #f6f6f6;
 }
 .content {
   width: 100%;
@@ -3038,4 +3039,27 @@ button {
   font-size: 24px;
   color: #fff;
   margin-top: 28px;
+}
+.condition {
+  padding: 60px 0 60px;
+  text-align: center;
+}
+.condition__title {
+  font-size: 46px;
+  text-align: center;
+  font-family: 'Bebas Neue Cyrillic';
+  color: #343434;
+}
+.condition-tab {
+  background-color: #fff;
+  border: 1px solid #fac20c;
+  display: inline-block;
+  margin: 60px 0 60px;
+}
+.condition-tab__title {
+  color: #343434;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 46px;
+  text-align: center;
 }
