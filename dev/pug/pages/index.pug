@@ -25,13 +25,173 @@ block content
 
     .container
         .content.condition
-            .condition__title Почему забор следует заказать именно<br>
+            .title Почему забор следует заказать именно<br>
                 | у нас и прямо сейчас
-            .condition-tab
-                .condition-tab__title Специальные условия на монтаж в декабре 2016 года
-                .item-line
-                    a(href="#").item-line__link
-                        img(src="static/img/logo.png").item-line__img
-                        .item-line__text
-                            .item-line__title zabor.top
-                            | Заборы и ворота под ключ
+            .tab
+                a.tab__month(data-menu="left") Монтаж Декабрь - Март
+                a.tab__month(data-menu="right") Монтаж Апрель - Июнь
+                .tab-content
+                    .tab__title Специальные условия на монтаж в декабре 2016 года
+                    .item-line
+                        a(href="#").item-link
+                            img(src="static/img/content/numbers/number1.png").item-link__img
+                            .item-link__title Стоимость металлопроката зимой традиционно ниже чем весной!
+                                .item-link__text Зимой традиционно, в связи с падением спроса стоимость материалов падает!
+                        a(href="#").item-link
+                            img(src="static/img/content/numbers/number2.png").item-link__img
+                            .item-link__title Забутовка - в подарок!
+                                .item-link__text Для качественной трамбовки в зимний период мы по
+                                    | умолчанию в ПОДАРОК делаем забутовку (прайсовая стоимость услуги 100р/пм)
+                    .item-line
+                        a(href="#").item-link
+                            img(src="static/img/content/numbers/number3.png").item-link__img
+                            .item-link__title Специальные цены на материалы
+                                .item-link__text Мы и наши поставщики снизили наценку на материалы,
+                                    | чтобы сделать наиболее выгодное предложение
+                                    | (уменьшение конечной стоимости составило 110-160
+                                    | руб/пм в зависимости от типа забора)
+                        a(href="#").item-link
+                            img(src="static/img/content/numbers/number4.png").item-link__img
+                            .item-link__title Расширенная гарантия 2 года
+                                .item-link__text На все монтажи устанавливается срок гарантии до 31
+                                    | мая 2019 года. Т.е. у вас будет 3 "самых опасных" для
+                                    | забора зимних периодов эксплуатации на то чтобы
+                                    | убедиться что работы выполнены качественно.
+                    .item-line.item-line_last
+                        a(href="#").item-link
+                            img(src="static/img/content/numbers/number5.png").item-link__img
+                            .item-link__title Гарантийное ТО май-июнь
+                                .item-link__text ЗПонимая вашу озабоченность качеством монтажа в зимнее время, мы гарантируем провести техническое обслуживание вашего забора в период с 15 мая по 1 июля в обязательном порядке. (Данный пункт закреплен в договоре п.)
+
+
+    .container.application
+        .content.content_padding
+            .title.title_application Узнайте подробности прямо сейчас
+                .title_application_subtitle Оставьте заявку и наш менеджер свяжется с Вами в ближайшее время
+            form.form
+                .field-item
+                    input(name="name" type="text" placeholder="Ваше имя").field-item__control
+                .field-item
+                    input(name="phone" type="phone" placeholder="Ваше номер телефона").field-item__control
+                .field-item.field-item_size
+                    button(type="button").btn.field-item__control Оставить заявку
+
+    .container.container_color-white
+        .content.content_padding
+            .title о нас
+            .about
+                a.about-item
+                    img(src="static/img/content/about/about1.png").about-item__img
+                    .about-item__text Работаем с 2012 года
+                a.about-item
+                    img(src="static/img/content/about/about2.png").about-item__img
+                    .about-item__text Р216 000 метров
+                        | забора установленно
+                        | в 2014 году
+                a.about-item
+                    img(src="static/img/content/about/about3.png").about-item__img
+                    .about-item__text Гарантия на работу 24 месяца
+                a.about-item
+                    img(src="static/img/content/about/about4.png").about-item__img
+                    .about-item__text Опыт монтажных бригад более 5 лет
+                a.about-item
+                    img(src="static/img/content/about/about5.png").about-item__img
+                    .about-item__text Все материалы соответствуют ГОСТ
+
+    .container
+        .content.content_padding
+            .title Наши услуги
+            .service
+                .service-item
+                    img(src="static/img/content/fence/zabor1.png")
+                    .service-item__text Забор из профнастила
+                    .service-item__price от
+                        span.service-item__price_color  890
+                        |  р/пм
+                    button(type="button").btn.btn_color-white.service-item__btn Подробнее
+                    button(type="button").btn.service-item__btn Заказать
+                .service-item
+                    img(src="static/img/content/fence/zabor2.png")
+                    .service-item__text Забор из профнастила
+                    .service-item__price от
+                        span.service-item__price_color  890
+                        |  р/пм
+                    button(type="button").btn.btn_color-white.service-item__btn Подробнее
+                    button(type="button").btn.service-item__btn Заказать
+                .service-item
+                    img(src="static/img/content/fence/zabor3.png")
+                    .service-item__text Забор из профнастила
+                    .service-item__price от
+                        span.service-item__price_color  890
+                        |  р/пм
+                    button(type="button").btn.btn_color-white.service-item__btn Подробнее
+                    button(type="button").btn.service-item__btn Заказать
+                .service-item
+                    img(src="static/img/content/fence/zabor4.png")
+                    .service-item__text Забор из профнастила
+                    .service-item__price от
+                        span.service-item__price_color  890
+                        |  р/пм
+                    button(type="button").btn.btn_color-white.service-item__btn Подробнее
+                    button(type="button").btn.service-item__btn Заказать
+
+    .container.bg-service
+        .content.content_padding
+            .title.title_application Услуга замера бесплатно!
+                .title_application_subtitle Оставьте заявку и наш менеджер свяжется с Вами в ближайшее время
+            form.form
+                .field-item
+                    input(name="name" type="text" placeholder="Ваше имя").field-item__control
+                .field-item
+                    input(name="phone" type="phone" placeholder="Ваше номер телефона").field-item__control
+                .field-item.field-item_size
+                    button(type="button").btn.field-item__control Оставить заявку
+
+    .container
+        .content.content_padding
+            .title Наши работы
+                .works
+                    a(href="#").works__link
+                        img(src="static/img/content/works/work1.jpg")
+                    a(href="#").works__link
+                        img(src="static/img/content/works/work2.jpg")
+                    a(href="#").works__link
+                        img(src="static/img/content/works/work3.jpg")
+                    a(href="#").works__link
+                        img(src="static/img/content/works/work4.jpg")
+                    a(href="#").works__link
+                        img(src="static/img/content/works/work5.jpg")
+                    a(href="#").works__link
+                        img(src="static/img/content/works/work6.jpg")
+                    a(href="#").works__link
+                        img(src="static/img/content/works/work7.jpg")
+                    a(href="#").works__link
+                        img(src="static/img/content/works/work8.jpg")
+                    a(href="#").works__link
+                        img(src="static/img/content/works/work9.jpg")
+                    a(href="#").works__link
+                        img(src="static/img/content/works/work10.jpg")
+                    a(href="#").works__link
+                        img(src="static/img/content/works/work11.jpg")
+                    a(href="#").works__link
+                        img(src="static/img/content/works/work12.jpg")
+                button(type="button").btn.field-item__control Показать больше работ
+
+    .container#map
+        .content_position
+            .contacts
+                .title Наши контакты
+                .info
+                    |Адрес:
+                    span.info__text 129327, г. Москва, ул. Коминтерна, д.7, к.2,
+                        | оф.601 (офисное здание "Теплопроект")
+                .info
+                    | Телефон:
+                    span.info__text +7 (495) 256-27-28
+                .info
+                    | E-mail:
+                    span.info__text sales@krepost-sk.ru
+                .info
+                    | Время работы офиса::
+                    span.info__text Пн-Пт: с 10:00 до 19:00,<br>
+                        | Сб, Вс: выходной
