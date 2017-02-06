@@ -3158,7 +3158,6 @@ button {
   width: 100%;
 }
 .field-item {
-  display: inline-block;
   margin: 6px;
 }
 .field-item__control {
@@ -3348,6 +3347,16 @@ button {
   .item-link__title {
     width: 100%;
   }
+  .border {
+    padding: 10px 10px;
+    width: 300px;
+  }
+  .form-callback {
+    width: 310px;
+  }
+  .form-callback__title {
+    font-size: 35px;
+  }
 }
 @media screen and (max-width: 530px) {
   .main-title {
@@ -3358,6 +3367,9 @@ button {
 @media screen and (max-width: 420px) {
   .field-item__control {
     width: 310px;
+  }
+  .border {
+    width: 300px;
   }
 }
 @media screen and (max-width: 400px) {
