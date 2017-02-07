@@ -27,3 +27,20 @@
 	&_color-white
 		background-color #ffffff
 		border 3px solid #f6f6f6
+
+hoverAnimation(time=150ms)
+	position relative
+	&:after
+		content ""
+		position absolute
+		cursor pointer
+		left 0
+		top 0
+		width 100%
+		height 100%
+		opacity 0
+		transition: all time cubic-bezier(0.250, 0.250, 0.750, 0.750); /* linear */
+		transition-timing-function: cubic-bezier(0.250, 0.250, 0.750, 0.750); /* linear */
+	&:hover:after
+		background-color #000000
+		opacity 0.27
